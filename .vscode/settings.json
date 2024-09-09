@@ -1,0 +1,86 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.fontSize": 14,
+  "editor.renderLineHighlight": "all",
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "always", // Only when eslint
+      "source.organizeImports": "always"
+  },
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+      80,
+      120
+  ],
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 14,
+  "scm.showHistoryGraph": false,
+  "workbench.colorTheme": "SynthWave '84",
+  "workbench.iconTheme": "material-icon-theme",
+  // Emmet - Extension to help write codes in HTML and CSS
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  // Typescript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": false,
+  // JavaScript
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.inlayHints.parameterTypes.enabled": false,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+  // Nest Icon Pack
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "infrastructure": "app",
+      "domain": "core",
+      "products": "console",
+      "orders": "batch",
+      "customers": "contract",
+      "transaction": "custom",
+      "repository": "mappings",
+      "useCases": "components",
+      "application": "vm",
+      "features": "resource",
+      "counter": "update",
+      "entity": "class",
+      "entities": "class",
+      "value-objects": "stack",
+      "schemas": "class",
+      "stores": "ngrx-reducer",
+      "typeorm": "database",
+      "repositories": "mappings",
+      "in-memory": "less",
+      "http": "container",
+      "migrations": "tools",
+      "modules": "stack",
+      "implementations": "core",
+      "dtos": "typescript",
+      "dto": "typescript",
+      "fakes": "mock",
+      "unit": "test",
+      "e2e": "test",
+      "integration": "test",
+      "roles": "log",
+      "users": "admin",
+      "websockets": "pipe",
+      "hash-provider": "secure"
+  },
+  "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune",
+      "*.int-spec.ts": "test-ts",
+      "*.e2e-spec.ts": "test-ts",
+      "vitest.config.ts": "vite",
+      "vitest.config.e2e.ts": "vite",
+      "*.pdf": "pdf"
+  }
+}
